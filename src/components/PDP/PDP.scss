@@ -1,0 +1,162 @@
+.PDP{
+    display: flex;
+    margin-top: 73px;
+    .PDP-images{
+        display: flex;
+        .list-images{
+            .image {
+                display: block;
+                height: 80px;
+                margin-bottom: 32px;
+                cursor: pointer;
+                width: 80px;
+                img{
+                    object-fit: contain;
+                    height: 80px;
+                    width: 80px;
+                }
+            }
+        }
+        .image{
+            margin-left: 50px;
+            height: 511px;
+            width: 610px;
+            left: 0px;
+            top: 0px;
+            border-radius: 0px;          
+            img{
+                 object-fit:contain;
+                height: 511px;
+                width: 610px;
+            }
+        }
+    }
+    .PDP-description{
+        margin-left: 100px;
+        width: 292px;
+        margin-right:100px ;
+        color: #1D1F22;
+        h1{
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 27px;
+        }
+        h2{
+            margin-top: 16px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 27px;
+        }
+        .price{
+            font-family: 'Roboto Condensed';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 18px;
+            margin-top: 38px;
+            .p{
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 18px;
+                display: flex;
+                align-items: center;
+                padding: 10px;
+            }
+        }
+        .addToCart{
+            text-transform: uppercase;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 16px 32px;
+            background: #5ECE7B;
+            color: #FFFFFF;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 120%;
+            margin-top: 20px;
+        }
+    }
+    .desc{
+        margin-top: 40px;
+    }
+    .characteristics{
+        margin-top: 43px;
+        .element{
+            h2{
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 18px;
+                text-transform: uppercase;
+            }
+            .elementWrap{
+                margin-top: 8px;
+                display: flex;
+                .eachElement{
+                    width: 63px;
+                    height: 45px;
+                    border: 1px solid #1D1F22;
+                    background-color: #FFFFFF;
+                    margin-right: 12px;
+                    font-family: 'Source Sans Pro';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 18px;
+                    text-align: center;
+                    padding-top:13px ;
+                }
+                .eachElement:hover{
+                    color: #FFFFFF;
+                    background: #222529;
+                }
+                .active{
+                    color: #FFFFFF;
+                    background: #222529;
+                }
+                .eachElement:active{
+                    color: #FFFFFF;
+                    background: #222529;
+                }
+                label{
+                    width: 63px;
+                    height: 45px;
+                    border: 1px solid #1D1F22;
+                    list-style: none;
+                    margin-right: 12px;
+                    font-family: 'Source Sans Pro';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 18px;
+                    text-align: center;
+                    padding-top:13px ;
+                }
+                label:hover{
+                    color: #FFFFFF;
+                    background: #222529;
+                }
+                label:active{
+                    color: #FFFFFF;
+                    background: #222529;
+                }
+                .color{
+                    margin-right:8px;
+                }
+                .color:hover{
+                    border: 1px solid  #5ECE7B;
+                }
+            }
+        }
+    }
+}

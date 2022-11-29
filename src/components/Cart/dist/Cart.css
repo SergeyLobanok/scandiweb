@@ -1,0 +1,95 @@
+.cart h1 {
+  text-transform: uppercase;
+  margin-top: 80px;
+  margin-bottom: 55px;
+}
+.cart .elements-orders .element-ordrer {
+  display: flex;
+  border-bottom: 1px solid #E5E5E5;
+  border-top: 1px solid #E5E5E5;
+  padding-bottom: 5px;
+  justify-content: space-between;
+}
+.cart .elements-orders .element-ordrer h2 {
+  margin-top: 24px;
+}
+.cart .elements-orders .element-ordrer h3 {
+  margin-top: 16px;
+}
+.cart .elements-orders .element-ordrer p {
+  margin-top: 20px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+}
+.cart .elements-orders .element-ordrer .attributes {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+}
+.cart .elements-orders .element-ordrer .attributes .attributes-elements {
+  display: flex;
+  margin-top: 7px;
+}
+.cart .elements-orders .element-ordrer .attributes .attributes-elements .attributes-element {
+  width: 63px;
+  height: 45px;
+  border: 1px solid #1D1F22;
+  text-align: center;
+  padding-top: 12px;
+  margin-right: 8px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+.cart .elements-orders .element-ordrer .wrapper {
+  display: flex;
+}
+.cart .elements-orders .element-ordrer .wrapper .amount {
+  margin-top: 24px;
+}
+.cart .elements-orders .element-ordrer .wrapper .amount .plus {
+  border: 1px solid #1D1F22;
+  width: 45px;
+  height: 45px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  text-align: center;
+  padding: 0;
+}
+.cart .elements-orders .element-ordrer .wrapper .amount .count {
+  margin-top: 72px;
+  text-align: center;
+}
+.cart .elements-orders .element-ordrer .wrapper .amount .minus {
+  border: 1px solid #1D1F22;
+  width: 45px;
+  height: 45px;
+  font-size: 300%;
+  text-align: center;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  margin-top: 85px;
+}
+.cart .elements-orders .element-ordrer .wrapper .images {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 24px;
+  height: 288px;
+  width: 200px;
+}
+.cart .elements-orders .element-ordrer .wrapper .images img {
+  height: 288px;
+  width: 200px;
+}

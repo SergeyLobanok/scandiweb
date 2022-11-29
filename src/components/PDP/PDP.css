@@ -1,0 +1,166 @@
+.PDP {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 73px;
+}
+
+.PDP .PDP-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.PDP .PDP-images .list-images .image {
+  display: block;
+  height: 80px;
+  margin-bottom: 32px;
+  cursor: pointer;
+  width: 80px;
+}
+
+.PDP .PDP-images .list-images .image img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 80px;
+  width: 80px;
+}
+
+.PDP .PDP-images .image {
+  margin-left: 50px;
+  height: 511px;
+  width: 610px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.PDP .PDP-images .image img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 511px;
+  width: 610px;
+}
+
+.PDP .PDP-description {
+  margin-left: 100px;
+  width: 292px;
+  color: #1D1F22;
+}
+
+.PDP .PDP-description h1 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 27px;
+}
+
+.PDP .PDP-description h2 {
+  margin-top: 16px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 27px;
+}
+
+.PDP .PDP-description .price {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 38px;
+}
+
+.PDP .PDP-description .price .p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.PDP .PDP-description .addToCart {
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px 32px;
+  background: #5ECE7B;
+  color: #FFFFFF;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  margin-top: 20px;
+}
+
+.PDP .desc {
+  margin-top: 40px;
+}
+
+.PDP .characteristics {
+  margin-top: 43px;
+}
+
+.PDP .characteristics .element h2 {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.PDP .characteristics .element .elementWrap {
+  margin-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.PDP .characteristics .element .elementWrap .eachElement {
+  width: 63px;
+  height: 45px;
+  border: 1px solid #1D1F22;
+  margin-right: 12px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  padding-top: 13px;
+}
+
+.PDP .characteristics .element .elementWrap .eachElement:hover {
+  background-color: #1D1F22;
+  color: #FFFFFF;
+}
+
+.PDP .characteristics .element .elementWrap .eachElement:active {
+  background-color: #1D1F22;
+  color: #FFFFFF;
+}
+
+.PDP .characteristics .element .elementWrap .color {
+  margin-right: 8px;
+}
+/*# sourceMappingURL=PDP.css.map */

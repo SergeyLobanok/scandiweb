@@ -1,0 +1,26 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+  margin-left: 101px;
+  margin-right: 101px;
+  position: relative;
+}
+
+.special {
+  background-color: rgba(57, 55, 72, 0.22);
+  top: 78px;
+  min-height: 1435px;
+  position: absolute;
+}
+/*# sourceMappingURL=main.css.map */
